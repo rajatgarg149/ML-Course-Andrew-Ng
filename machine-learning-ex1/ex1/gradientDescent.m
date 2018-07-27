@@ -12,22 +12,3 @@ for iter = 1:num_iters,
     theta = theta - alpha*(1/m)*(X'*(X*theta - y));
 end;
 end;
-     
-
-    % ====================== YOUR CODE HERE ======================
-    % Instructions: Perform a single gradient step on the parameter vector
-    %               theta. 
-    %
-    % Hint: While debugging, it can be useful to print out the values
-    %       of the cost function (computeCost) and gradient here.
-    %
-
-
-
-
-
-
-
-    % ============================================================
-
-  
