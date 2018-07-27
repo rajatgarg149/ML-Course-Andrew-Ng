@@ -9,6 +9,12 @@ function [X_norm, mu, sigma] = featureNormalize(X)
 X_norm = X;
 mu = zeros(1, size(X, 2));
 sigma = zeros(1, size(X, 2));
+m = size(X,1);
+mu = mean(X);
+
+X_norm = X-mu; %subtracting matrix mu from each sample of X
+sigma = std(X_norm);
+X_norm = X_norm./sigma;
 
 % ====================== YOUR CODE HERE ======================
 % Instructions: First, for each feature dimension, compute the mean
