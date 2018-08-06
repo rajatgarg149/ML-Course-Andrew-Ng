@@ -101,7 +101,6 @@ pause;
 %
 %  How does the decision boundary change when you vary lambda? How does
 %  the training set accuracy vary?
-%
 
 % Initialize fitting parameters
 initial_theta = zeros(size(X, 2), 1);
