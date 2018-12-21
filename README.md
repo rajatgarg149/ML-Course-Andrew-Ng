@@ -8,7 +8,7 @@ This repository contains the most recent versions of all projects and peer asses
 
 ### 3. [Logistic Regression](Week3%20-%20Logistic%20Regression/machine-learning-ex2)
 
-### 4. [Neural Networks: Representation](Week4%20-%20Neural%20Networks:%20Representation/machine-learning-ex3)
+### 4. [Neural Networks: Representation](Week3%20-%20Logistic%20Regression/machine-learning-ex2)
 
 ### 5. [Neural Networks: Learning](Week5%20-%20Neural%20Networks:%20Learning/machine-learning-ex4)
 
